@@ -1,6 +1,14 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
 
+// The variable p1 is defined outside the function, but it is also used inside. This is closure.
+
+const p1 = 10
+const multiply = function (p2) {
+  let product = p1 * p2;
+  return product;
+}
+console.log(multiply(6));
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
